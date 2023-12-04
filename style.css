@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.display{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-attachment: fixed;
+
+}
+
+.display h2{
+    font-size: 4rem;
+    color: #ffffff;
+}
+
+.display:nth-child(1){
+    background-image: url(images/div1.jpg);
+    background-size: cover;
+}
+
+.display:nth-child(2){
+    background-image: url(images/div2.jpg);
+    background-size: cover;
+}
+.display:nth-child(3){
+    background-image: url(images/div3.jpg);
+    background-size: cover;
+}
+.display:nth-child(4){
+    background-image: url(images/div4.jpg);
+    background-size: cover;
+}
